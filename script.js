@@ -7,9 +7,9 @@ function loadingAmimation() {
         ease: "expo.out"
     })
     tl.from("#page1", {
-        transform: "scaleX(0.8) scaleY(0.6) transalteY(80%)",
+        transform: "scaleX(0.8) scaleY(0.6) translateY(80%)",
         borderRadius: "50px",
-        duration2,
+        duration:2,
         ease: "expo.out"
     })
     tl.from("nav", {
